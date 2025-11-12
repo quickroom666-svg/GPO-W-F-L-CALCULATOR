@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPO Trade — Read-Only (Embedded Catalog Fallback)</title>
+<style>
+  :root{{--bg:#0b1220;--panel:#0f172a;--border:#1f2937;--text:#e5e7eb;--muted:#9ca3af;--accent:#ffd54a;--good:#22c55e;--warn:#facc15;--bad:#ef4444;--slot:#0b1327}}
+  *{{box-sizing:border-box}}body{{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0b1220;color:var(--text)}}
+  .wrap{{max-width:1200px;margin:20px auto;padding:0 14px}}
+  header{{display:flex;align-items:center;gap:10px;margin-bottom:10px}}
+  header h1{{font-size:20px;margin:0}}
+  .boards{{display:grid;grid-template-columns:1fr 1fr;gap:16px}}
+  .panel{{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:12px;box-shadow:0 10px 30px rgba(0,0,0,.35)}}
+  .panel h2{{font-size:14px;margin:0 0 8px;color:#cbd5e1;display:flex;justify-content:space-between}}
+  .grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}}
+  .slot{{aspect-ratio:1/1;border:1px dashed #243042;border-radius:10px;background:var(--slot);display:grid;place-items:center;position:relative;overflow:hidden;cursor:pointer}}
+  .slot .plus{{font-size:26px;color:#34d399;opacity:.9}}
+  .slot img{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.95}}
+  .slot .qty{{position:absolute;bottom:6px;right:6px;background:#111827;color:#fff;padding:2px 6px;border-radius:999px;border:1px solid #374151;font-size:12px;box-shadow:0 2px 6px rgba(0,0,0,.45)}}
+  .slot .remove{{position:absolute;top:6px;right:6px;background:#111827;color:#ef4444;border:1px solid #374151;border-radius:999px;font-size:12px;padding:2px 6px;display:none}}
+  .slot.filled .remove{{display:block}}
+  .slot .name-label{{position:absolute;left:6px;top:6px;padding:2px 6px;border-radius:8px;font-size:12px;font-weight:700;line-height:1;color:#fff;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.12);text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000,0 -2px 0 #000,2px 0 0 #000,0 2px 0 #000,-2px 0 0 #000;max-width:70%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+  .sum{{display:flex;justify-content:space-between;align-items:center;margin-top:10px;padding-top:10px;border-top:1px solid var(--border);color:#cbd5e1}}
+  .total{{font-weight:700;color:var(--accent)}}
+  .verdict{{margin-top:16px;padding:10px 12px;border-radius:999px;border:1px solid var(--border);display:inline-flex;align-items:center;gap:10px;background:#0b1327}}
+  .verdict.good{{border-color:var(--good);color:var(--good);background:rgba(34,197,94,.08)}}
+  .verdict.fair{{border-color:var(--warn);color:var(--warn);background:rgba(250,204,21,.08)}}
+  .verdict.bad{{border-color:var(--bad);color:var(--bad);background:rgba(239,68,68,.08)}}
+  .modal{{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:16px;z-index:40}}
+  .modal .card{{width:min(800px,95vw);background:#0f172a;border:1px solid var(--border);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:10px}}
+  .row{{display:flex;gap:8px;align-items:center}}
+  .row input{{background:#0b1327;border:1px solid #243042;color:#fff;border-radius:10px;padding:8px}}
+  .row input[type='number']{{width:100px}}
+  .list{{max-height:320px;overflow:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}}
+  .item{{display:flex;gap:8px;align-items:center;border:1px solid #243042;background:#0b1327;border-radius:10px;padding:6px;cursor:pointer}}
+  .item img{{width:46px;height:46px;border-radius:8px;object-fit:cover}}
+  .empty{{color:#9ca3af;font-size:14px;padding:8px}}
+  @media (max-width: 900px){{ .boards{{grid-template-columns:1fr}} }}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>GPO Trade — Read-Only</h1>
+      <span style="padding:4px 8px;border-radius:999px;background:rgba(255,213,74,.12);color:#fde68a;border:1px solid rgba(255,213,74,.4);font-size:12px">W / F / L</span>
+    </header>
+
+    <div class="boards">
+      <div class="panel" id="leftPanel">
+        <h2>Your Offer <small style="color:#9ca3af">you give</small></h2>
+        <div class="grid" id="leftGrid"></div>
+        <div class="sum">Your total: <span class="total" id="leftTotal">0</span></div>
+      </div>
+
+      <div class="panel" id="rightPanel">
+        <h2>Their Offer <small style="color:#9ca3af">you receive</small></h2>
+        <div class="grid" id="rightGrid"></div>
+        <div class="sum">Their total: <span class="total" id="rightTotal">0</span></div>
+      </div>
+    </div>
+
+    <div class="verdict fair" id="verdictBox">
+      <b id="verdictText">F — FAIR</b>
+      <span id="diffText" style="color:#9ca3af">Difference: 0</span>
+    </div>
+  </div>
+
+  <!-- Picker -->
+  <div class="modal" id="picker">
+    <div class="card">
+      <div class="row">
+        <input id="search" placeholder="Search item by name..." style="flex:1">
+        <label style="color:#e5e7eb">Qty <input id="qty" type="number" min="1" value="1"></label>
+        <button id="pickClose" style="border:1px solid #334155;background:#0b1327;color:#e5e7eb;border-radius:10px;padding:8px 10px;cursor:pointer">Close</button>
+      </div>
+      <div class="list" id="itemList"></div>
+      <div id="emptyMsg" class="empty" style="display:none">No items found. Check <code>catalog.json</code> or embedded fallback.</div>
+    </div>
+  </div>
+
+<script>
+// Embedded fallback (works on file:// or if fetch fails)
+window.CATALOG = {"items": []};
+
+const LEFT_SLOTS = 9, RIGHT_SLOTS = 9;
+const state = {{ catalog:{{items:[]}}, left:Array(LEFT_SLOTS).fill(null), right:Array(RIGHT_SLOTS).fill(null), picking:{{side:"left",index:0}} }};
+
+function $(q){{ return document.querySelector(q) }}
+function abbreviate(n){{ if(n>=1_000_000)return (n/1_000_000).toFixed(2).replace(/\.00$/,"")+"M"; if(n>=1_000)return (n/1_000).toFixed(2).replace(/\.00$/,"")+"k"; return String(n) }}
+
+async function loadCatalog(){{
+  try{{ const res = await fetch("catalog.json?_="+Date.now()); const data = await res.json(); if(Array.isArray(data)) state.catalog={{items:data}}; else state.catalog = data; }}
+  catch(e){{ state.catalog = window.CATALOG || {{items:[]}}; }}
+  // Normalize
+  if(!state.catalog || !Array.isArray(state.catalog.items)) state.catalog = {{items:[]}};
+  renderPickerList();
+}}
+function getImgFor(name, fallback){{ const it = state.catalog.items.find(x=>x.name===name); return it && it.img ? it.img : fallback; }}
+function slotTemplate(it){{ if(!it) return `<div class="plus">+</div>`; const img=getImgFor(it.name,"assets/placeholder.png"); return `<img src="${{img}}" alt="" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='assets/placeholder.png'"><div class="name-label">${{it.name}}</div><div class="qty">x${{it.qty}}</div><button class="remove">x</button>`; }}
+function buildGrid(el, side){{ el.innerHTML=""; const n= side==="left"?LEFT_SLOTS:RIGHT_SLOTS; for(let i=0;i<n;i++){{ const data= side==="left"?state.left[i]:state.right[i]; const slot=document.createElement("div"); slot.className="slot"+(data?" filled":""); slot.innerHTML=slotTemplate(data); slot.onclick=(ev)=>{{ if(ev.target.classList.contains("remove")){{ setSlot(side,i,null); return; }} openPicker(side,i,data?.qty||1); }}; el.appendChild(slot);} }}
+function setSlot(side, i, payload){{ if(side==="left") state.left[i]=payload; else state.right[i]=payload; render(); }}
+function valueOf(name){{ const it= state.catalog.items.find(x=>x.name===name); return it? it.value:0; }}
+function totals(){{ const sum=a=>a.reduce((t,s)=> s? t+valueOf(s.name)*s.qty:t,0); return {{left:sum(state.left), right:sum(state.right)}} }}
+function renderVerdict(){{ const box=$("#verdictBox"), t=totals(), d=t.right-t.left; $("#diffText").textContent="Difference: "+abbreviate(d); box.classList.remove("good","fair","bad"); const m=0.05; if(t.right>=t.left*(1+m)){{ box.classList.add("good"); $("#verdictText").textContent="W — WORTH"; }} else if(t.left>=t.right*(1+m)){{ box.classList.add("bad"); $("#verdictText").textContent="L — LOSE"; }} else {{ box.classList.add("fair"); $("#verdictText").textContent="F — FAIR"; }} $("#leftTotal").textContent=abbreviate(t.left); $("#rightTotal").textContent=abbreviate(t.right); }}
+function render(){{ buildGrid($("#leftGrid"),"left"); buildGrid($("#rightGrid"),"right"); renderVerdict(); }}
+function openPicker(side, index, qty=1){{ state.picking={{side,index}}; $("#picker").style.display="flex"; $("#qty").value=qty; $("#search").value=""; renderPickerList(); $("#search").focus(); }}
+function closePicker(){{ $("#picker").style.display="none" }}
+function renderPickerList(){{ const list=$("#itemList"); const empty=$("#emptyMsg"); const q=($("#search")?.value||"").toLowerCase(); const items=(state.catalog.items||[]).filter(it=> it.name && it.name.toLowerCase().includes(q)); list.innerHTML=""; if(items.length===0){{ empty.style.display="block"; return; }} empty.style.display="none"; items.forEach(it=>{{ const el=document.createElement("div"); el.className="item"; const img=it.img||"assets/placeholder.png"; el.innerHTML=`<img src="${{img}}" referrerpolicy="no-referrer" crossorigin="anonymous" onerror="this.onerror=null;this.src='assets/placeholder.png'"><div><div>${{it.name}}</div><div style="color:#9ca3af">${{abbreviate(it.value)}}</div></div>`; el.onclick=()=>{{ const qty=Math.max(1, parseInt($("#qty").value||"1",10)); setSlot(state.picking.side, state.picking.index, {{name:it.name, qty}}); closePicker(); }}; list.appendChild(el); }}); }}
+
+$("#pickClose").onclick = closePicker; $("#search").oninput = renderPickerList;
+loadCatalog().then(render);
+</script>
+</body>
+</html>
