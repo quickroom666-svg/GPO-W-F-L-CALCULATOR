@@ -1,0 +1,859 @@
+{
+  "items": [
+    {
+      "name": "SP RESET",
+      "value": 5,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/d9/Spreset2.png/revision/latest?cb=20250409035245"
+    },
+    {
+      "name": "DARK ROOT",
+      "value": 10,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/c/c7/Darkroot.png/revision/latest?cb=20211109031351"
+    },
+    {
+      "name": "MEGALODON TOOTH",
+      "value": 40,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/03/Bild_2024-04-03_204508108.png/revision/latest?cb=20240403184521"
+    },
+    {
+      "name": "MUSASHI KIT",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/01/Musashigpofixed.png/revision/latest?cb=20210929052614"
+    },
+    {
+      "name": "PAW",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/c/c0/Paw-new-fruit-pngpng.png/revision/latest?cb=20230129125054"
+    },
+    {
+      "name": "FIREWORK DAGGERS",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/96/Firework_Daggers.png/revision/latest?cb=20231226034513"
+    },
+    {
+      "name": "YAMI",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/e/e8/YamiYaminoMiEdit.png/revision/latest?cb=20221106153257"
+    },
+    {
+      "name": "FIREWORK ROCKET LAUNCHER",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/51/Fw_Launcher.png/revision/latest?cb=20231226035211"
+    },
+    {
+      "name": "CUPID BOAT",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/6f/Cupids_Boat.png/revision/latest?cb=20220220185212"
+    },
+    {
+      "name": "MORIA KIT",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/3/3c/Geckomoria.PNG/revision/latest?cb=20220625165621"
+    },
+    {
+      "name": "RAIUI",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/a8/RaiuiIdleTemp.png/revision/latest?cb=20231120131558"
+    },
+    {
+      "name": "KAGE",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/8/8b/Kage_fruit.png/revision/latest?cb=20220528102432"
+    },
+    {
+      "name": "BLACK PITCHFORK",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/9a/Black_pitchfork.png.png/revision/latest?cb=20231121155207"
+    },
+    {
+      "name": "GOLDEN POLE",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/8/80/Golden_Staff.png/revision/latest?cb=20201226003000"
+    },
+    {
+      "name": "CRAB CUTLASS",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/4/47/CrabCutlass.png/revision/latest?cb=20210923113302"
+    },
+    {
+      "name": "MORIA SCISSOR",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/94/Scissors.gif/revision/latest?cb=20220516015524"
+    },
+    {
+      "name": "GRAVITY CANE",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/9e/Gravity_Blade.jpg/revision/latest?cb=20210227061345"
+    },
+    {
+      "name": "BISENTO",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/3/31/Bisento.png/revision/latest?cb=20210706121249"
+    },
+    {
+      "name": "GOLDEN HOOK",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/b1/GoldenHookPho.png/revision/latest?cb=20210730145251"
+    },
+    {
+      "name": "SAILOR TOKEN",
+      "value": 50,
+      "img": "https://cdn.discordapp.com/attachments/1112882312091279380/1438236346509561946/image.png?ex=6916257a&is=6914d3fa&hm=67b4fa4b2562b1deab4a08c5cfaed434ee7057f2ef64178c32d896bd828798cd&"
+    },
+    {
+      "name": "VERA WHIP",
+      "value": 50,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/56/Image_2023-11-20_152209109.png/revision/latest?cb=20231120232213"
+    },
+    {
+      "name": "SK FIT",
+      "value": 75,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/2/27/Brook%27s_Outfit.png/revision/latest?cb=20220628202822"
+    },
+    {
+      "name": "KAROO",
+      "value": 75,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/73/DuckPho.png/revision/latest?cb=20210807123846"
+    },
+    {
+      "name": "GOLDEN H",
+      "value": 75,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/be/GoldenHammerP.png/revision/latest?cb=20210917221921"
+    },
+    {
+      "name": "DOMINGO OUTFIT",
+      "value": 75,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/a2/Donmingos_outfit.webp/revision/latest?cb=20230622070555"
+    },
+    {
+      "name": "HOLLOW GS",
+      "value": 75,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/67/Hallow_Great_Sword.png/revision/latest?cb=20231127031640"
+    },
+    {
+      "name": "ITO",
+      "value": 80,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/c/c2/Itopng.v1.png/revision/latest?cb=20230129125549"
+    },
+    {
+      "name": "BAAL CAPE",
+      "value": 90,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/6a/Ba%27als_Cape.png/revision/latest?cb=20211107131612"
+    },
+    {
+      "name": "DOMINGO CAPE",
+      "value": 90,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/96/Donmingo_game.png/revision/latest?cb=20230622011437"
+    },
+    {
+      "name": "KK CORE",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/58/KKCoreHigherQ.gif/revision/latest?cb=20211014230334"
+    },
+    {
+      "name": "FRUIT BAG",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/e/e6/SpareFruitBag.png/revision/latest?cb=20220112122006"
+    },
+    {
+      "name": "ICEBORN DAGGER",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/f/f1/Iceborn_Daggers_Image.png/revision/latest?cb=20241130105336"
+    },
+    {
+      "name": "LAW KIT (ACESSORIES)",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/7b/Law.png/revision/latest?cb=20240920161527"
+    },
+    {
+      "name": "SHUSUI",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/02/Ryuma%27s_Shusui.png/revision/latest?cb=20220627032134"
+    },
+    {
+      "name": "CUPID BATTLEAXE",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/63/BattleAxe.png/revision/latest?cb=20220220224623g"
+    },
+    {
+      "name": "HAWK HAT",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/8/85/Hawkeye%27shat.png/revision/latest?cb=20240618042440"
+    },
+    {
+      "name": "ROGER HAT",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/7a/Rogar%27Hat.png/revision/latest?cb=20240617222540"
+    },
+    {
+      "name": "GORO",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/8/86/Newgoro.png/revision/latest?cb=20220624192601"
+    },
+    {
+      "name": "KIRA",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/f/f9/Kira_kira_no_Mi.png/revision/latest?cb=20250307231805"
+    },
+    {
+      "name": "YUKI",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/d3/Yuki.png/revision/latest?cb=20221227130525"
+    },
+    {
+      "name": "CUPID BOW",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/71/Image_2025-02-22_144223383.png/revision/latest?cb=20250222194233"
+    },
+    {
+      "name": "SK SHADES",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/0f/Screenshot_2022-07-01_073535.png/revision/latest?cb=20220701113546"
+    },
+    {
+      "name": "VIOLIN",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/c/cc/Soul_king%27s_violin.png/revision/latest?cb=20220627185022"
+    },
+    {
+      "name": "MORIA NECKLACE",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/a6/MoriaNecklace.png/revision/latest?cb=20220625115315"
+    },
+    {
+      "name": "GORU",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/f/f5/Gold_Fruit.png/revision/latest?cb=20241021054038"
+    },
+    {
+      "name": "SMOKE",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/7e/Smoke_Fruit.png/revision/latest?cb=20241021054221"
+    },
+    {
+      "name": "NEPTUNE TRIDENT",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/57/Overview_of_the_weapon..png/revision/latest?cb=20210227112005"
+    },
+    {
+      "name": "TOMOE DRUMS",
+      "value": 100,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/69/Tom.png/revision/latest?cb=20201226003739"
+    },
+    {
+      "name": "CUPID HEADBAND",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/92/Headband.png/revision/latest?cb=20220221035027"
+    },
+    {
+      "name": "KIZARU OUTFIT",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/3/31/Radiant_Admiral%27s_Outfit.png/revision/latest?cb=20240819030426"
+    },
+    {
+      "name": "DF JOURNAL",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/d1/NewDFJournalPic.png/revision/latest?cb=20220628184645"
+    },
+    {
+      "name": "HOLLOW HALBERD",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/d1/NewDFJournalPic.png/revision/latest?cb=20220628184645"
+    },
+    {
+      "name": "GURA",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/df/879047288679460904.v3.png/revision/latest?cb=20211027093303"
+    },
+    {
+      "name": "SK HAT",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/2/2f/Brooks_tophat.png/revision/latest?cb=20220626161349"
+    },
+    {
+      "name": "DOMINGO SHADES",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/3/36/Donmingo%27s_Shades_with_vanity_on.png/revision/latest?cb=20230622023132"
+    },
+    {
+      "name": "VRAEL'S PIPE",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/b9/Pipe.png/revision/latest?cb=20221102221426"
+    },
+    {
+      "name": "MEGALODON ARMOR",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/2/24/Megalodon_Armor.png/revision/latest?cb=20240403011105"
+    },
+    {
+      "name": "ZUSHI",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/9a/Zushi-new-fruit-pngpng.png/revision/latest?cb=20230129125200"
+    },
+    {
+      "name": "SUNKEN ARMOR",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/5c/Sunken_Armor.png/revision/latest?cb=20250406080803"
+    },
+    {
+      "name": "HIE",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/7f/819439725621936148.v3.png/revision/latest?cb=20211027094152"
+    },
+    {
+      "name": "CUPID WAND",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/7f/819439725621936148.v3.png/revision/latest?cb=20211027094152"
+    },
+    {
+      "name": "BORJ GAUNTLETS",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/c/c9/KG.png/revision/latest?cb=20220630102532"
+    },
+    {
+      "name": "SPIRIT COLOR",
+      "value": 150,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/61/Spiritreset2.png/revision/latest?cb=20250409035438"
+    },
+    {
+      "name": "MERA",
+      "value": 200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/3/35/FlareFlareFruit.png/revision/latest?cb=20201126221308"
+    },
+    {
+      "name": "SOUL CANE",
+      "value": 200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/70/SoulCane.gif/revision/latest?cb=20220516005836"
+    },
+    {
+      "name": "KIZARU CAPE",
+      "value": 200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/74/RADIANT_cape.png/revision/latest?cb=20240819155359"
+    },
+    {
+      "name": "HOLLOW FANG",
+      "value": 200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/d6/HollowsFangT.png/revision/latest?cb=20211110101600"
+    },
+    {
+      "name": "SB CORE",
+      "value": 200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/1/1e/A7607a692e4f2071a8dbe451a7353923.gif/revision/latest?cb=20210508131956"
+    },
+    {
+      "name": "ICEBORN RAPIER",
+      "value": 200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/7b/Rapier.png/revision/latest?cb=20230127200858"
+    },
+    {
+      "name": "BLOOD SYTCHE",
+      "value": 200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/c/ca/BloodScythe.png/revision/latest?cb=20241021191239"
+    },
+    {
+      "name": "ICEBORN BLADE",
+      "value": 200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/08/Iceborn_Blade.png/revision/latest?cb=20241224171318"
+    },
+    {
+      "name": "BLOSSOM SKIRT",
+      "value": 200,
+      "img": "assets/placeholder.png"
+    },
+    {
+      "name": "JITTE",
+      "value": 200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/61/Jitte.png/revision/latest/scale-to-width-down/268?cb=20241024181106"
+    },
+    {
+      "name": "ICE BORN GUN BLADE",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/b7/The_Frosty_Gunblade.png/revision/latest?cb=20241224171951"
+    },
+    {
+      "name": "INFERNO ROCKET BLADE",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/4/49/IRB.png/revision/latest?cb=20221119084002"
+    },
+    {
+      "name": "THRILLER SHIP",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/e/e6/Thrilled_Ship.png/revision/latest?cb=20220625155928"
+    },
+    {
+      "name": "RYUMA SCARF",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/5a/Ryuma%27s_Scarf.png/revision/latest?cb=20220626111517"
+    },
+    {
+      "name": "KIZARU SHADES",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/09/Radiant_Admiral_glasses.png/revision/latest?cb=20240819030114"
+    },
+    {
+      "name": "ROGER OUTFIT",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/5e/Rogercoat.png/revision/latest?cb=20241021133747"
+    },
+    {
+      "name": "RES BAAL FIT 2.0",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/5c/Resurrected_Ba%27al%27s_Outfit_2.0.png/revision/latest?cb=20251019083822"
+    },
+    {
+      "name": "HAWK OUTFIT",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/03/HawkEye%27sOutfit.png/revision/latest?cb=20240618023605"
+    },
+    {
+      "name": "FESTIVAL LANCER",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/71/FLIngame.png/revision/latest?cb=20211226012322"
+    },
+    {
+      "name": "ICEBORN KATANA",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/a7/Iceborn_Katana.png/revision/latest?cb=20241130105217"
+    },
+    {
+      "name": "EXALTED QFIT",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/bd/Exalted_Cupid_Queen_Outfit.png/revision/latest?cb=20250305185419"
+    },
+    {
+      "name": "FIREWORK LANCER",
+      "value": 300,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/7e/Firework_Lancer.png/revision/latest?cb=20221119034836"
+    },
+    {
+      "name": "TRUE BAAL GUARD",
+      "value": 400,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/e/e5/TrueBaalSnakeGuard.gif/revision/latest?cb=20231120010917"
+    },
+    {
+      "name": "BONESHIVER",
+      "value": 400,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/f/f7/Boneshiver.png/revision/latest?cb=20240402212804"
+    },
+    {
+      "name": "SUNKEN ANCHOR",
+      "value": 400,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/5a/Sunken_Anchor.png/revision/latest?cb=20240918074815"
+    },
+    {
+      "name": "MEGALODON HELMET",
+      "value": 400,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/aa/Megalodon_Helm.png/revision/latest?cb=20240403040322"
+    },
+    {
+      "name": "FESTIVAL SHIELD",
+      "value": 500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/b0/FSIngame.png/revision/latest?cb=20211226012337"
+    },
+    {
+      "name": "HOVERBOARD",
+      "value": 500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/2/20/Hoverboard.png/revision/latest?cb=20210829150120"
+    },
+    {
+      "name": "SUNKEN HELMET",
+      "value": 500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/8/84/Sunken_Helmet.png/revision/latest?cb=20250121020058"
+    },
+    {
+      "name": "JESTER HAT",
+      "value": 500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/6c/JesterHatT.png/revision/latest?cb=20211108104142"
+    },
+    {
+      "name": "BLACK BULL",
+      "value": 600,
+      "img": "https://grand-piece-online.fandom.com/wiki/File:BBull.png"
+    },
+    {
+      "name": "BATSWARM",
+      "value": 600,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/dc/BatSwarm.png/revision/latest?cb=20220625211601"
+    },
+    {
+      "name": "COFFIN BOAT",
+      "value": 600,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/68/Coffin_boat.png/revision/latest?cb=20210601072233"
+    },
+    {
+      "name": "JESTER BOX",
+      "value": 600,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/1/1c/18127611f12622460f4af87df6cf5089.png/revision/latest?cb=20211109011824"
+    },
+    {
+      "name": "JESTER SYTCHE",
+      "value": 600,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/c/cd/Scythe.png/revision/latest?cb=20211003153208"
+    },
+    {
+      "name": "FLOWER SWORD",
+      "value": 600,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/af/FlowerSword2.png/revision/latest?cb=20240908105623"
+    },
+    {
+      "name": "STRIKER",
+      "value": 600,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/4/4f/Striker1.png/revision/latest?cb=20210829150126"
+    },
+    {
+      "name": "ENDBRINGER WINGS",
+      "value": 700,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/9e/Endbringer_Wings.png/revision/latest/scale-to-width-down/191?cb=20251101090128
+    },
+    {
+      "name": "LC",
+      "value": 700,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/4/4a/Legendaryfruitchest.png/revision/latest?cb=20230701182226"
+    },
+    {
+      "name": "ENDBRINGER ARMOR",
+      "value": 700,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/6a/Endbringer_Armor.png/revision/latest/scale-to-width-down/193?cb=20251101090158"
+    },
+    {
+      "name": "GOLDEN HAORI",
+      "value": 700,
+      "img": "https://grand-piece-online.fandom.com/wiki/File:ThunderH.png"
+    },
+    {
+      "name": "SUNA",
+      "value": 700,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/66/SunaBetterQuality.png/revision/latest?cb=20220704005721"
+    },
+    {
+      "name": "MAGU",
+      "value": 700,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/8/8a/Magu-new-fruit-pngpng.png/revision/latest?cb=20240624212154"
+    },
+    {
+      "name": "TENTAILS",
+      "value": 800,
+      "img": "https://grand-piece-online.fandom.com/wiki/File:TenTailsB.png"
+    },
+    {
+      "name": "USAMI HEAD",
+      "value": 800,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/4/4b/Usamii_Head.png/revision/latest/scale-to-width-down/180?cb=20250517082912"
+    },
+    {
+      "name": "ACE",
+      "value": 1000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/ba/AceSword_TEMP.png/revision/latest?cb=20240414175807"
+    },
+    {
+      "name": "SWORDFISH RAPIER",
+      "value": 1000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/e/e4/Swordfish_rapier.png/revision/latest?cb=20251022103521"
+    },
+    {
+      "name": "RES BAAL HEAD",
+      "value": 1200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/d1/Resurrected_Ba%27al%27s_Head.png/revision/latest?cb=20231126202555"
+    },
+    {
+      "name": "TOJI OUTFIT",
+      "value": 1200,
+      "img": "https://grand-piece-online.fandom.com/wiki/File:Sorcerer_Hunter_Costume.png"
+    },
+    {
+      "name": "ELO HAMMER",
+      "value": 1200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/1/15/EloHammer.png/revision/latest?cb=20210912180040"
+    },
+    {
+      "name": "OPE",
+      "value": 1200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/e/e6/1120347619277934653.webp/revision/latest?cb=20230802175313"
+    },
+    {
+      "name": "HALF SHROUD",
+      "value": 1200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/c/c5/Image_2025-10-22_033228904.png/revision/latest?cb=20251022103234"
+    },
+    {
+      "name": "KUMAKAWA HEAD",
+      "value": 1400,
+      "img": "https://grand-piece-online.fandom.com/wiki/File:Kumakawa_Head.png"
+    },
+    {
+      "name": "BLO HAMMER",
+      "value": 1500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/a9/Blo%27s_Sledgehammer.png/revision/latest?cb=20250429071226"
+    },
+    {
+      "name": "BAAL HEAD",
+      "value": 1500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/e/e8/Headofba%27al2.png/revision/latest?cb=20250409032754"
+    },
+    {
+      "name": "EXALTED CUPID WINGS",
+      "value": 1500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/07/Exalted_Cupid_Queen%27s_Wings.png/revision/latest?cb=20250323180854"
+    },
+    {
+      "name": "EPIC BANANA",
+      "value": 1500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/ba/Epic_Banana.png/revision/latest?cb=20250628131511"
+    },
+    {
+      "name": "CLOWN WIG",
+      "value": 1500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/0d/Clown_Wig.png/revision/latest?cb=20250628131214"
+    },
+    {
+      "name": "STARK GUNS",
+      "value": 1700,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/4/47/StarkGunIdle.png/revision/latest?cb=20231120085845"
+    },
+    {
+      "name": "BUDHA",
+      "value": 1700,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/2/2e/BuddhaFruit.gif/revision/latest?cb=20231123055709"
+    },
+    {
+      "name": "CUPID WINGS",
+      "value": 1700,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/7c/CWingsHigherQuality.png/revision/latest?cb=20220225234454"
+    },
+    {
+      "name": "SOUL GUITAR",
+      "value": 1800,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/8/8b/NewGuitar.png/revision/latest?cb=20220709201206"
+    },
+    {
+      "name": "PARROT",
+      "value": 2000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/c/cf/Parrot3.png/revision/latest/scale-to-width-down/307?cb=20251112064101"
+    },
+    {
+      "name": "MAX PELI",
+      "value": 2000,
+      "img": "https://cdn.itemsatis.com/uploads/post_images/gpo-100k-peli-23289544.jpg"
+    },
+    {
+      "name": "SNOWCAP SCEPTER",
+      "value": 2000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/3/39/Snowballer.png/revision/latest?cb=20241224171940"
+    },
+    {
+      "name": "BLESSED EXALTED QFIT",
+      "value": 2000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/f/f2/Blessedexalted.png/revision/latest?cb=20250322133621"
+    },
+    {
+      "name": "FLAMINGO BOAT",
+      "value": 2500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/a7/Flamingo_Boat.png/revision/latest?cb=20210926034102"
+    },
+    {
+      "name": "BLESSED CUPID BOW",
+      "value": 2500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/99/Blessed_Cupid_Bow.png/revision/latest?cb=20250311190925"
+    },
+    {
+      "name": "ISOH",
+      "value": 2500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/6a/Inverted_spear%2C_clear_view.png/revision/latest?cb=20240722231254"
+    },
+    {
+      "name": "QFIT",
+      "value": 2500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/a0/QueenOutfit.png/revision/latest?cb=20220221003115"
+    },
+    {
+      "name": "PTERO",
+      "value": 2800,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/aa/PteradonFruit.png/revision/latest?cb=20240623182132"
+    },
+    {
+      "name": "SANTA HAT(OG)",
+      "value": 3000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/05/Santa%27s_hat.png/revision/latest?cb=20210109200529"
+    },
+    {
+      "name": "TORI",
+      "value": 3500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/1/18/Torirevision.png/revision/latest?cb=20221225102637"
+    },
+    {
+      "name": "HOLLOW WENDER",
+      "value": 3500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/3/3c/Hollow%E2%80%99s_World_Ender.png/revision/latest?cb=20251026083716"
+    },
+    {
+      "name": "TROLL FACE",
+      "value": 4000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/3/3e/Troll_Face.png/revision/latest?cb=20250628131417"
+    },
+    {
+      "name": "MEGA POW",
+      "value": 4000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/07/Mega-pow.png/revision/latest?cb=20250307233204"
+    },
+    {
+      "name": "YORU",
+      "value": 4200,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/1/17/Darkblade.png/revision/latest?cb=20240623192708"
+    },
+    {
+      "name": "STARK OUTFIT",
+      "value": 4500,
+      "img": "https://grand-piece-online.fandom.com/wiki/File:Coyote_Outfit2.png"
+    },
+    {
+      "name": "PIKA",
+      "value": 4500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/6/69/PikaPikaNewQuality.png/revision/latest?cb=20220706164626"
+    },
+    {
+      "name": "ODM ROD",
+      "value": 5000,
+      "img": "assets/placeholder.png"
+    },
+    {
+      "name": "MC",
+      "value": 5000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/d4/Mythicalfruitchest.png/revision/latest?cb=20230701181241"
+    },
+    {
+      "name": "NFS",
+      "value": 5500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/b6/Nightfall_Shroud.png/revision/latest?cb=20241103145805"
+    },
+    {
+      "name": "VENOM",
+      "value": 5500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/e/e2/Doku.png/revision/latest?cb=20230303205950"
+    },
+    {
+      "name": "MOCHI",
+      "value": 6000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/a2/Mochi_model_test.png/revision/latest?cb=20220531201714"
+    },
+    {
+      "name": "BUNYO",
+      "value": 7500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/9/92/Bunyo_The_bunny.png/revision/latest?cb=20250615174706"
+    },
+    {
+      "name": "KIKOKU",
+      "value": 9500,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/4/49/KikokuIdle.png/revision/latest?cb=20230622005120"
+    },
+    {
+      "name": "FLOWERS",
+      "value": 13000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/72/Flower_Bouquet.jpg/revision/latest?cb=20210312214406"
+    },
+    {
+      "name": "WORLD ENDER",
+      "value": 16000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/0f/WE.png/revision/latest?cb=20221102214406"
+    },
+    {
+      "name": "YUKIO",
+      "value": 16000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/3/3f/Yukio_The_Bunny.png/revision/latest?cb=20240415183336"
+    },
+    {
+      "name": "ALL MYTHICAL FRUITS",
+      "value": 20700,
+      "img": "https://cdn.discordapp.com/attachments/1112882312091279380/1438233991793868910/image.png?ex=69162348&is=6914d1c8&hm=22124e8caacc7e8ec41d4de65d351451ae46a33d0d35cf4cc8e70959c1ad5f6f&"
+    },
+    {
+      "name": "BLESSED EXALTED CUPID WINGS",
+      "value": 22000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/a/a8/Wings.png/revision/latest?cb=20250521134902"
+    },
+    {
+      "name": "DF ROD",
+      "value": 27000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/f/fa/Devil_Fruit_Rod.png/revision/latest/scale-to-width-down/200?cb=20251101015101"
+    },
+    {
+      "name": "SOUL KING SCARF",
+      "value": 27000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/dd/SKScarfNew.png/revision/latest?cb=20221228225018"
+    },
+    {
+      "name": "ASE",
+      "value": 32000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/f/f3/Ase.png/revision/latest?cb=20230108093207"
+    },
+    {
+      "name": "BLO ASE",
+      "value": 42000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/0a/Blo_ase.png/revision/latest?cb=20250723092057"
+    },
+    {
+      "name": "ASE BAAL",
+      "value": 43000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/05/Image_2025-11-01_144454900.png/revision/latest/scale-to-width-down/180?cb=20251101184511"
+    },
+    {
+      "name": "PFRL",
+      "value": 45000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/1/1d/Prestige_firework_launcher.png/revision/latest?cb=20231231223233"
+    },
+    {
+      "name": "JESTER OUTFIT",
+      "value": 45000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/d/d6/Jester_outfit.png/revision/latest?cb=20211108140612"
+    },
+    {
+      "name": "CC",
+      "value": 70000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/1/13/Candy_Cane.png/revision/latest?cb=20210628202222"
+    },
+    {
+      "name": "TITAN AURA",
+      "value": 80000,
+      "img": "https://cdn.discordapp.com/attachments/1112882312091279380/1438235984872607755/image.png?ex=69162523&is=6914d3a3&hm=ea49520921986f39f8af52d719ff2ef6aa26cd6f254ccbfedbfe30c4ea6541da&"
+    },
+    {
+      "name": "ANOMALIZED MEGA POW",
+      "value": 94000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/0/04/Anomalized_Mega-Pow.png/revision/latest?cb=20250425014725"
+    },
+    {
+      "name": "CHROMA ASE",
+      "value": 100000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/b/b2/Chromatic_All_Seeing_Eye.png/revision/latest?cb=20250407174534"
+    },
+    {
+      "name": "PBAG",
+      "value": 125000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/7/7a/NewPBag.png/revision/latest?cb=20221111164811"
+    },
+    {
+      "name": "PFD",
+      "value": 135000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/5/51/Prestige_firework_daggers_held.png/revision/latest?cb=20231227110931"
+    },
+    {
+      "name": "PWENDER",
+      "value": 270000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/f/fb/Prestige_World_Ender.png/revision/latest?cb=20251025233604"
+    },
+    {
+      "name": "PIRB",
+      "value": 275000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/2/2f/PIFB.png/revision/latest?cb=20221126110823"
+    },
+    {
+      "name": "PFL",
+      "value": 305000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/e/e3/PFL.png/revision/latest?cb=20221129090809"
+    },
+    {
+      "name": "PCC",
+      "value": 530000,
+      "img": "https://static.wikia.nocookie.net/grand-piece-online/images/4/49/NewPCC.png/revision/latest?cb=20221118114031"
+    }
+  ]
+}
